@@ -1,0 +1,13 @@
+s="Makeen"
+print(s.upper())
+print(s.lower())
+print(s.replace("e","a"))
+print(s[3])
+print(s.find("M"))
+print(s.find('e',2))
+print(s.find('e',10))
+print(s.count("e"))
+print(s[::-1])
+print(s[::-3])
+print(s[:-3])
+print(s[:-1])
