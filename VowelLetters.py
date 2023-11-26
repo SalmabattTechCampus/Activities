@@ -1,3 +1,4 @@
+
 v = "aoeui"
 counter = 0
 message = input("nter a text:")
