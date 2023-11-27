@@ -14,8 +14,8 @@ def print_reverse(ls):
      return ls
 
 def main():
-    my_list = read_float(4)
-    number = int(input("enter the factor"))
+    my_list = read_float(3)
+    number = int(input("enter the factor: "))
     my_list= multiply(my_list, number)
     print(new_list)
     print(my_list)
