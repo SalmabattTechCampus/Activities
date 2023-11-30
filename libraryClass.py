@@ -1,29 +1,35 @@
 #create a library class that contains a list book objects. Include methods to add a book , display all books, and search for book by title.
 
-
-class library:
+class Library:
     
     def __init__(self):
-        self.library = []
-    def add_book(self," title", "aurthor","copies"):
-        book = {"Title":title, "Author":, "copies": copies}
-        self.liprary.append(book)
+        self.library=[]
         
-    def display_books(self):
+        
+    def add_book(self,tital,auther,copies):
+        book={"Tital":tital,"Auther":auther,"Copies":copies}
+        self.library.append(book)
+        
+    def display_book(self):
         for i in self.library:
             print(i)
-            
-    def search_book(self,title):
-        for i in self.library:
-            if(i["Title"] == title)
-            print(i[Author])
-            
-lb1 = library()
-lb1.add_book("python", "A", 4)
-lb1.add_book("C++","B",2)
-lb1.disply_books()
-lb1.search_book("Python")
-        
-        
     
+    def search_book(self,tital):
+        for i in self.library:
+            if(i["Tital"] == tital):
+                print(i["Auther"])
+        
+        
+        
+        
+        
+        
+        
+lb1=Library()
+lb1.add_book("python","Tom","11")
+lb1.add_book("C++","JOHN","3")
+lb1.add_book("JAVA","RIE","7")
+lb1.display_book()
+lb1.search_book("python")
+
     
